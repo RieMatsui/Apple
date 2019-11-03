@@ -58,11 +58,12 @@ nav {
     color: #fff;
     display: block;
     font-size:14px;
+    overflow: hidden;
     font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
    
 nav li {
-    width: 80px;
+    width: 70px;
     list-style: none;
     float: left;
 }
