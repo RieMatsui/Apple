@@ -1,0 +1,118 @@
+/*
+Generic Styles
+ */
+body {
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+/*
+PC size
+*/
+@media print, screen and (min-width: 980px) {
+    .contents-airpods-2 {
+        background-image: url("../images/heroes/airpods-pro-takeover/download-large.jpg");
+        background-repeat: no-repeat;
+        background-position: center center; 
+        height: 712px;
+    }
+}
+/*
+Tablet size
+*/
+@media print, screen and (max-width: 979px) and (min-width: 768px) {
+
+    .contents-airpods-2 {
+        background-image: url("../images/heroes/airpods-pro-takeover/download-middle.jpg");
+        background-repeat: no-repeat;
+        background-position: center center; 
+        height: 616px;
+    }
+}
+
+/*
+Smart Phone Size
+*/
+@media print, screen and (max-width: 767px)  {
+    .contents-airpods-2 {
+        background-image: url("../images/heroes/airpods-pro-takeover/download-small.jpg");
+        background-repeat: no-repeat;
+        background-position: center center; 
+        height: 550px;
+    }
+}
+
+/**
+ナビゲーション
+*/
+nav {
+    list-style: none;
+    height: 45px;
+    background-color:#000000;
+    color: #fff;
+    display: block;
+    font-size:14px;
+    overflow: hidden;
+    font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+   
+nav li {
+    width: 70px;
+    list-style: none;
+    float: left;
+}
+
+.nav-wrapper {
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    clear: left;
+}
+nav li a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-apple-image {
+    height: 45px;
+}
+
+.nav-apple-link {
+    padding: 15px;
+}
+
+.logo-image{
+    height: 36px;
+    width: 44px;
+}
+
+.main-contents {
+    padding-top: 70px;
+    background-color: #fff;
+}
+/*
+Air Pod
+*/
+.contents-first {
+    background: #fafafa;
+    margin-top: 20px;
+
+}
+.contents-airpods {
+    color:#fff;
+    background-color: #000000;;
+}
