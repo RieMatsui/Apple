@@ -8,6 +8,10 @@ body {
     font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
 /*
 PC size
 */
@@ -58,9 +62,13 @@ nav {
 }
    
 nav li {
-    width: 90px;
+    width: 80px;
     list-style: none;
     float: left;
+}
+
+.nav-wrapper {
+
 }
 
 header {
@@ -68,9 +76,8 @@ header {
     width: 100%;
     top: 0;
     z-index: 10000;
-  }
-
-   
+    clear: left;
+}
 nav li a {
     text-decoration: none;
 }
@@ -80,7 +87,7 @@ li {
 }
 
 .nav-apple-image {
-
+    height: 45px;
 }
 
 .nav-apple-link {
@@ -96,16 +103,15 @@ li {
     padding-top: 70px;
     background-color: #fff;
 }
+/*
+Air Pod
+*/
+.contents-first {
+    background: #fafafa;
+    margin-top: 20px;
 
-.contents-airpods {
-    background: #000000;
-    width: 100%;
-    margin:auto;
-    color:#fff;
 }
-
-
-
-
-
-
+.contents-airpods {
+    color:#fff;
+    background-color: #000000;;
+}
