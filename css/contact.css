@@ -1,0 +1,78 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+  background-color: #f4f9f9;
+  height: 70px;
+  overflow: hidden;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  padding: 20px 40px;
+}
+
+.header-list li{
+  float: left;
+  padding: 25px 40px;
+  display: block;
+}
+
+li {
+  list-style: none;
+  padding: 20px 40px;
+}
+
+.main {
+  text-align:  center;
+}
+
+.main-content {
+  height: 400px;
+  width: 100%;
+  background-image: url('../images/clack-test/businessman-large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.main-content p {
+  color: #f4f9f9;
+  font-size: 60px;
+  position: absolute;
+  top:40%;
+  left: 20%;
+  font-family: 'Dancing Script', cursive;
+  transform: translate(-30%, -30%);
+}
+
+  /* .sub-content {
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+  }
+
+  .sub-content-wrapper {
+    padding: 20px;
+    background-color:  #ddd;
+    height: 260px;
+    text-align:  center;
+  } */
+
+  .sub-content-wrapper {
+  background-color: #eee;     /* 背景色指定 */
+  padding:  10px;             /* 余白指定 */
+  display: flex;              /* フレックスボックスにする */
+}
+
+.sub-content {
+  padding: 20px;
+  color:  #fff;               /* 文字色 */
+  margin:  10px;              /* 外側の余白 */
+  border-radius:  5px;        /* 角丸指定 */
+  width: 33%;                 /* 幅指定 */
+}
