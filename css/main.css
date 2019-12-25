@@ -63,13 +63,9 @@ nav {
 }
    
 nav li {
-    width: 70px;
+    width: 100px;
     list-style: none;
     float: left;
-}
-
-.nav-wrapper {
-
 }
 
 header {
