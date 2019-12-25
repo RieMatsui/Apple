@@ -3,27 +3,45 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.footer {
+  background-color: #1a4b5f;
+  color:#f7f9fa;
+  height: 100px;
+}
+
+.footer-list {
+  float: right;
+  margin-right: 20px;
+}
+
+.footer-list li{
+  padding: 8px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 25px;
+  padding: 25px 20px;
+
+}
+
 header {
-  background-color: #f4f9f9;
-  height: 70px;
+  background-color: #0d262f;
+  color: #fbfcfc;
+  height: 60px;
   overflow: hidden;
 }
 
 .header-logo {
   float: left;
   font-size: 30px;
-  padding: 20px 40px;
+  padding: 15px 40px;
 }
 
 .header-list li{
   float: left;
   padding: 25px 40px;
   display: block;
-}
-
-li {
-  list-style: none;
-  padding: 20px 40px;
 }
 
 .main {
@@ -41,38 +59,25 @@ li {
 }
 
 .main-content p {
-  color: #f4f9f9;
+  color: #c5cfd4;
   font-size: 60px;
   position: absolute;
   top:40%;
   left: 20%;
   font-family: 'Dancing Script', cursive;
-  transform: translate(-30%, -30%);
 }
 
-  /* .sub-content {
+  .sub-content {
     width: 30%;
-    height: 30%;
+    height: 100%;
     display: inline-block;
+    margin: 5px;
   }
-
   .sub-content-wrapper {
-    padding: 20px;
-    background-color:  #ddd;
-    height: 260px;
+    padding: 5px;
+    background-color:  #dbe7e6;
+    max-height: 450px;
     text-align:  center;
-  } */
+  } 
 
-  .sub-content-wrapper {
-  background-color: #eee;     /* 背景色指定 */
-  padding:  10px;             /* 余白指定 */
-  display: flex;              /* フレックスボックスにする */
-}
 
-.sub-content {
-  padding: 20px;
-  color:  #fff;               /* 文字色 */
-  margin:  10px;              /* 外側の余白 */
-  border-radius:  5px;        /* 角丸指定 */
-  width: 33%;                 /* 幅指定 */
-}
